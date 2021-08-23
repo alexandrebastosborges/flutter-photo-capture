@@ -1,0 +1,62 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=J7AAGF06H076S89 lib/main.dart
+
+## exception
+
+SocketException: SocketException: Write failed (OS Error: Broken pipe, errno = 32), port = 0
+
+```
+null```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, v1.7.8+hotfix.3, on Mac OS X 10.14.4 18E226, locale en-IN)
+    • Flutter version 1.7.8+hotfix.3 at /Users/sagarsuri/Downloads/flutter
+    • Framework revision b712a172f9 (4 days ago), 2019-07-09 13:14:38 -0700
+    • Engine revision 54ad777fd2
+    • Dart version 2.4.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at /Users/sagarsuri/Library/Android/sdk
+    • Android NDK at /Users/sagarsuri/Library/Android/sdk/ndk-bundle
+    • Platform android-28, build-tools 28.0.3
+    • ANDROID_HOME = /Users/sagarsuri/Library/Android/sdk
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 10.2.1)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 10.2.1, Build version 10E1001
+    • CocoaPods version 1.7.2
+
+[✓] iOS tools - develop for iOS devices
+    • ios-deploy 1.9.4
+
+[✓] Android Studio (version 3.4)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 35.2.1
+    • Dart plugin version 183.6270
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+
+[!] IntelliJ IDEA Community Edition (version 2018.2.5)
+    • IntelliJ at /Applications/IntelliJ IDEA CE.app
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    • Dart plugin version 182.5215
+    • For information about installing plugins, see
+      https://flutter.dev/intellij-setup/#installing-the-plugins
+
+[✓] VS Code (version 1.35.1)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.1.0
+
+[✓] Connected device (2 available)
+    • ASUS Z01RD     • J7AAGF06H076S89           • android-arm64 • Android 9 (API 28)
+    • Sagar’s iPhone • 00008020-000620123C69002E • ios           • iOS 13.0
+
+! Doctor found issues in 1 category.
+```
