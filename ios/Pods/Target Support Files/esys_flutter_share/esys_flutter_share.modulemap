@@ -1,0 +1,6 @@
+framework module esys_flutter_share {
+  umbrella header "esys_flutter_share-umbrella.h"
+
+  export *
+  module * { export * }
+}
