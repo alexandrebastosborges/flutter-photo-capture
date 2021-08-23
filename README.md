@@ -1,6 +1,6 @@
-# ClickToShare
+# Fotografe e compartilhe!
 
-# How to run:
+# Como rodar:
 
 * Clone the project to your Machine.
 * Import the project to Android Studio.
